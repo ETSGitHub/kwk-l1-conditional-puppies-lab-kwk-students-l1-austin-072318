@@ -1,9 +1,9 @@
 # 1. Write a method called no_puppies that takes in a number of puppies as an argument. If the number of puppies is greater than zero then this method should return "No more puppies!" otherwise it should return "Well done, Rachel!"
 def no_puppies(number_of_puppies)
   if number_of_puppies > 0
-    return"get back to your animal goals"
+    return"Get back on your animal goals!"
   else
-    return "good job"
+    return "Good job, Rachel!"
   end
 end
 
@@ -12,11 +12,11 @@ end
 # 2. Rachel's animal accumulation has been going well and we're going to cut her some slack. Write a new method called less_puppies that takes in a number of puppies as an argument and tells Rachel good job when she gets less than 3 puppies, to slow down if she's found exactly 3 puppies, and to get back on her animal restriction if she gets more than 3 puppies.
 def less_puppies(number_of_puppies)
   if number_of_puppies < 3
-    return"Good Job!"
+    return"Good job, Rachel!"
   elsif number_of_puppies == 3
-    return"Slow down"
+    return"Slow down! No more puppies."
   else 
-    return "Get back to your animal goals"
+    return "Get back to your animal goals!"
   end
 end
 
@@ -24,9 +24,9 @@ end
 # 3. We've decided to give Rachel a little more control over her puppy obsession. Write a method called some_puppies that takes in two arguments - the number of puppies she has found and a maximum puppy allowance. This method should tell Rachel good job if she gets less than half her maximum allowance and to get back on her puppy restriction when she exceeds her maximum.
 def some_puppies(number_of_puppies, maximum_puppy_allownce)
   if number_of_puppies < (maximum_puppy_allownce / 2)
-    return"Good job"
+    return"Good job, Rachel!"
   elsif number_of_puppies > maximum_puppy_allownce
-    return"Get back om restrictions"
+    return"Get back to your animal goals!"
   else
     return " "
   end
@@ -38,7 +38,7 @@ def both_animals (number_of_puppies,number_of_cats)
   if number_of_puppies == 0 || number_of_cats == 0 
     return"Good job!"
   if number_of_cats >= 1 && number_of_puppies >= 1
-    return"You shoulf rreally slow back down"
+    return"Get back to your animal goals!"
   else
     return" "
   end
