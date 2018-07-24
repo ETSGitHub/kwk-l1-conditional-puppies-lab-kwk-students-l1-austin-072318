@@ -38,7 +38,7 @@ def both_animals (number_of_puppies,number_of_cats)
   if number_of_puppies == 0 || number_of_cats == 0 
     return"Good job!"
   if number_of_cats >= 1 && number_of_puppies >= 1
-    return"Get back to your animal goals!"
+    return "Get back to your animal goals!"
   else
     return"Get back to your animal goals!"
   end
