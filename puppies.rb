@@ -42,3 +42,4 @@ def new_animal_accumulation (number_of_puppies,number_of_cats)
     return" "
   end
 end
+end
