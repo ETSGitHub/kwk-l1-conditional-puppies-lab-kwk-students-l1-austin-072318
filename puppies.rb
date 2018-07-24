@@ -1,9 +1,9 @@
 # 1. Write a method called no_puppies that takes in a number of puppies as an argument. If the number of puppies is greater than zero then this method should return "No more puppies!" otherwise it should return "Well done, Rachel!"
 def no_puppies(number_of_puppies)
   if number_of_puppies > 0
-    return"No more puppies!"
+    return"get back to your animal goals"
   else
-    return "Well done, Rachel!"
+    return "good job"
   end
 end
 
@@ -15,7 +15,7 @@ def less_puppies(number_of_puppies)
   elsif number_of_puppies == 3
     return"Slow down"
   else 
-    return "Get back on your restrictions"
+    return "Get back to your animal goals"
   end
 end
 
