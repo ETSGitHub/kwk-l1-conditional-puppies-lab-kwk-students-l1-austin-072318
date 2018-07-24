@@ -43,3 +43,5 @@ def new_animal_accumulation (number_of_puppies,number_of_cats)
   end
 end
 end
+
+no_puppies(5)
