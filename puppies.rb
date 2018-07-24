@@ -28,7 +28,7 @@ def some_puppies(number_of_puppies, maximum_puppy_allownce)
   elsif number_of_puppies > maximum_puppy_allownce
     return"Get back to your animal goals!"
   else
-    return " "
+    return "Get back to your animal goals!"
   end
 end 
 
